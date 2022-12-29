@@ -16,7 +16,7 @@ func Greet(name string) (string, error) {
 		return greeting, err
 	}
 
-	greeting = fmt.Sprintf("hello %s", name)
+	greeting = fmt.Sprintf("Hello %s!", name)
 
 	return greeting, err
 }
