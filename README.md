@@ -15,3 +15,16 @@ go run main.go
 ```sh
 go test ./...
 ```
+
+### Build and run binary 
+
+1. First build it:
+    ```sh
+    go build -o main
+    ```
+
+2. Run the binary:
+    ```sh
+    ./main
+    ```
+    
