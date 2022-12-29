@@ -1,14 +1,22 @@
 package greet
 
 import (
+	"errors"
 	"fmt"
-	"log"
 )
 
 // Greet function returns greeting for given name
-func Greet(name string) string {
+func Greet(name string) (string, error) {
+
+	var greeting string
+	var err error
+
 	if len(name) < 1 {
-		log.Panic("Name must be more than 0 characters long")
+		err = errors.New("Name must be more than 0 characters long")
+		return greeting, err
 	}
-	return fmt.Sprintf("hello %s", name)
+
+	greeting = fmt.Sprintf("hello %s", name)
+
+	return greeting, err
 }
