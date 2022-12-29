@@ -3,7 +3,7 @@ package greet
 import "testing"
 
 func TestValidGreet(t *testing.T) {
-	expected := "hello Vesa"
+	expected := "Hello Vesa!"
 	greeting, err := Greet("Vesa")
 	if err != nil {
 		t.Errorf("expected err nil, received %v", err)
