@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	greeting, err := greet.Greet("")
+	greeting, err := greet.Greet("Vesa")
 	if err != nil {
 		log.Panic(err)
 
