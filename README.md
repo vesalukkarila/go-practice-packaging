@@ -28,5 +28,5 @@ go test ./...
     ./main vesa
     ```
 
-    (or leave name blank to see an error)
+    (or leave name blank or a empty string `""` to see an error)
     
