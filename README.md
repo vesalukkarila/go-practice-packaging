@@ -1,6 +1,6 @@
 # go-practice-packaging 
 
-This repository is for practicing Go (packaging and basic functionality).
+Pair programming exercise: This repository is for practicing Go (packaging and basic functionality).
 
 ## Usage
 
