@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/vesalukkarila/go-practice-packaging/greet"
+)
 
 func main() {
-	fmt.Println(greet("Vesa"))
+	fmt.Println(greet.Greet("Vesa"))
 }
